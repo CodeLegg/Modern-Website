@@ -312,7 +312,6 @@ ul.pushNav {
 .pushNav,
 .pushNav a {
 	font-size: 1em;
-	font-family: helvetica, sens-serif;
 	font-weight: 500;
 	color: var(--black);
 	text-decoration: none;
@@ -335,7 +334,7 @@ ul.pushNav {
 	padding-inline: 15px;
 }
 .mobile-nav-header p {
-color: var(--darkgrey);
+color: var(--offwhite);
 }
 
 .logo-name{
@@ -467,16 +466,6 @@ color: var(--darkgrey);
 
 }
 
-.action-btn {
-    display: flex;
-    flex-direction: column; /* Arrange icon and text vertically */
-    align-items: center;
-    justify-content: center;
-    padding: 5px 0;
-    color: var(--eerie-black);
-    text-align: center;
-}
-
 .mobile-bottom-navigation .action-btn {
 	flex-basis: 20%; /* Each button takes 20% of the width */
 }
@@ -493,8 +482,11 @@ color: var(--darkgrey);
 .action-btn {
 	position: relative;
 	font-size: 26px;
-	color: var(--darkgrey);
-	padding: 10px;
+	color: var(--offwhite);
+	padding: 10px; display: flex;
+    flex-direction: column; /* Arrange icon and text vertically */
+    align-items: center;
+    justify-content: center;
 }
 .action-btn p {
 
