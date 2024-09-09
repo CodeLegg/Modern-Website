@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- top header -->
+        <div class="top-header">
+            <div class="container">
+
+                <div class="brand-container">
+                    <div class="rounded-square">
+                        <i class="fa-solid fa-glasses"></i>
+                    </div>
+                </div>
+
+                <button class="action-btn hamburger js-menuToggle">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+                
+               
+
+            </div>
+
+            
+        </div>
+
+
+
+
+        <!-- mobile menu -->
+        <div class="js-navOverlay"></div>
+
+        <div class="bottom-header">
+
+            <div class="container">
+                <nav>
+                    <!-- Unordered List -->
+                    <ul class="pushNav js-pushmobileMenu">
+
+                        <div class="brand-container nav-title firstLevel hdg">
+                            <div class="rounded-square">
+                                <i class="fa-solid fa-glasses"></i>
+                            </div>
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+
+                        <!-- List Item Link -->
+                        <li>
+                            <a href="#">
+                                Home
+                                <div class=""></div>
+                            </a>
+                        </li>
+
+
+                        <!-- Begin section 1 -->
+                        <li>
+                            <!-- First Section -->
+                            <div class="openLevel js-openLevel">
+                                Categories 1
+                                <i class="fa-solid fa-caret-right"></i>
+                            </div>
+
+                            <!-- First Section Unordered List Level 1 -->
+                            <ul class="pushNav pushNav_Level_Right js-pushNavLevelBack">
+
+                                <!-- Mobile Navbar Push Level Back Navigation -->
+                                <li class="nav-title closeLevel js-closeLevel hdg">
+                                    <i class="fa fa-chevron-left"></i>
+                                    Go Back
+                                </li>
+
+                                <li>
+
+                                    <div class="openLevel js-openLevel">
+                                        Section 1.1
+                                        <i class="fa fa-chevron-right"></i>
+                                    </div>
+
+                                    <ul class="pushNav pushNav_Level_Right js-pushNavLevelBack">
+                                        <li class="nav-title closeLevel js-closeLevel hdg">
+                                            <i class="fa fa-chevron-left"></i>
+                                            Go Back
+                                        </li>
+
+                                        <li>
+                                            <div class="openLevel js-openLevel">
+                                                Section 1.2
+                                                <i class="fa fa-chevron-right"></i>
+                                            </div>
+
+                                            <ul class="pushNav pushNav_Level_Right js-pushNavLevelBack">
+
+                                                <li class="nav-title closeLevel js-closeLevel hdg">
+                                                    <i class="fa fa-chevron-left"></i>
+                                                    Go Back
+                                                </li>
+
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li>
+                                            <div class="openLevel js-openLevel">
+                                                Section 1.2
+                                                <i class="fa fa-chevron-right"></i>
+                                            </div>
+
+                                            <ul class="pushNav pushNav_Level_Right js-pushNavLevelBack">
+
+                                                <li class="nav-title closeLevel js-closeLevel hdg">
+                                                    <i class="fa fa-chevron-left"></i>
+                                                    Go Back
+                                                </li>
+
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+                                                <li><a href="#">Product</a></li>
+
+                                            </ul>
+
+                                        </li>
+                                </li>
+
+
+
+                            </ul>
+                            <!-- End section 1 -->
+                        </li>
+
+
+
+
+
+                </nav>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </header>
+
+    <div class="mobile-bottom-navigation">
+
+
+
+      
+
+        <button class="action-btn active">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+        </button>  
+          
+        <button class="action-btn">
+            <i class="fa-sharp fa-solid fa-user"></i>
+            <p>Sign-in</p>
+        </button>
+     
+        
+        <button class="action-btn">
+            <i class="fa-solid fa-heart"></i>
+            <p>Wishlist</p>
+            <span class="count">0</span>
+        </button>
+
+         <button class="action-btn">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            <span class="count">0</span>
+            <p>Cart</p>
+        </button>
+
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+
+
+</body>
+
+</html>
